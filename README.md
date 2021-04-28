@@ -64,9 +64,9 @@ Nesse projeto, você será capaz de:
 
 Para entregar o seu projeto você deverá criar um Pull Request em **cada um destes** repositórios:
 
-- [Repositório com o backend](https://github.com/betrybe/sd-07-stranger-things-backend).
+- [Repositório com o backend](https://github.com/tryber/sd-07-stranger-things-backend).
 
-- [Repositório com o frontend](https://github.com/betrybe/sd-07-stranger-things-frontend);
+- [Repositório com o frontend](https://github.com/tryber/sd-07-stranger-things-frontend);
 
 Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://course.betrybe.com/intro/git/) sempre que precisar!
 
