@@ -424,7 +424,7 @@ O código não está utilizando variáveis de ambiente. Você vai configurá-lo 
 
 Em seguida, você deverá adicionar o modulo `PM2` ao projeto utilizando o arquivo `ecosystem`, fazendos as adaptações necessárias no `package.json`.
 
-Você vai realizar o deploy do projeto (frontend e backend) no _Heroku_. Para isso, você deverá prepará-los, adicionando os respectivos `Procfiles`. Eles deverão apontar para os scripts adicionados ao `package.json` que utilizam o `PM2`. Por último, você deverá realizar o deploy do projeto, conforme requisitos, no _Heroku_. Os comandos utilizados deverão ser adicionados no README.md de cada projeto. Para mais informações sobre - [Procfiles](https://app.betrybe.com/course/back-end/infrastructure/deploy/heroku#introducao-ao-heroku) e [ecosystem](https://app.betrybe.com/course/back-end/infrastructure/deploy/process-manager#ecosystem-file) visite o Coruse.
+Você vai realizar o deploy do projeto (frontend e backend) no _Heroku_. Para isso, você deverá prepará-los, adicionando os respectivos `Procfiles`. Eles deverão apontar para os scripts adicionados ao `package.json` que utilizam o `PM2`. Por último, você deverá realizar o deploy do projeto, conforme requisitos, no _Heroku_. Os comandos utilizados deverão ser adicionados no README.md de cada projeto. Para mais informações sobre - [Procfiles](https://app.betrybe.com/course/back-end/deployment/infraestrutura-deploy-com-heroku/30597149-145b-49a1-924c-bd8050a8f249/conteudo/dcb89fc5-1093-458d-9b2f-fbac0b18f9bc/introducao-ao-heroku/8e3bf957-decc-40b9-a854-eb406ede0ca9?use_case=side_bar) e [ecosystem](https://app.betrybe.com/course/back-end/deployment/deploy-gerenciadores-de-processos/915a6dce-162b-4015-b499-31ecae9e9411/conteudo/a3b991be-5a2d-4a82-9a38-d96eab5534b5/ecosystem-file/90d1dda4-555a-4cc3-9757-22d72836e230?use_case=side_bar) visite o Coruse.
 
 Todos esses passos estão detalhados nos requisitos abaixos.
 
@@ -470,7 +470,7 @@ O que será testado:
 
 #### 3 - Verifica a configuração do ecosystem.config.yml
 
-Adicione o [arquivo](https://app.betrybe.com/course/back-end/infrastructure/deploy/process-manager#ecosystem-file) `ecosystem.config.yml`. O arquivo deverá realizar as seguintes configurações:
+Adicione o [arquivo](https://app.betrybe.com/course/back-end/deployment/deploy-gerenciadores-de-processos/915a6dce-162b-4015-b499-31ecae9e9411/conteudo/a3b991be-5a2d-4a82-9a38-d96eab5534b5/ecosystem-file/90d1dda4-555a-4cc3-9757-22d72836e230?use_case=side_bar) `ecosystem.config.yml`. O arquivo deverá realizar as seguintes configurações:
 
   1. Ativar o Modo Cluster;
 
@@ -506,7 +506,7 @@ O que será testado:
 
 #### 5 - Verifica a configuração do arquivo Procfile
 
-Defina um [arquivo](https://app.betrybe.com/course/back-end/infrastructure/deploy/heroku#introducao-ao-heroku) `Procfile`, utilizando a mesma configuração do script `start` do `package.json`: iniciar o server utilizando o módulo do `PM2`, apontando para o arquivo `ecosystem` criado anteriormente.
+Defina um [arquivo](https://app.betrybe.com/course/back-end/deployment/infraestrutura-deploy-com-heroku/30597149-145b-49a1-924c-bd8050a8f249/conteudo/dcb89fc5-1093-458d-9b2f-fbac0b18f9bc/introducao-ao-heroku/8e3bf957-decc-40b9-a854-eb406ede0ca9?use_case=side_bar) `Procfile`, utilizando a mesma configuração do script `start` do `package.json`: iniciar o server utilizando o módulo do `PM2`, apontando para o arquivo `ecosystem` criado anteriormente.
 
 Lembre-se: como nossos serviços receberão acessos HTTP externos, precisamos definir os `Dynos` como sendo do tipo `web`.
 
